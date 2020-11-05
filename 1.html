@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+</head>
+<body dir="rtl"> 
+<font color="red">
+<form name="f1"action="by040741@gmail.com"method="post">
+البريد الالكتروني<input type="text"name="t1">
+<br>كلمة المرور<input type="password"name="t2">
+<br>رقم الموبيل الخاص بك<input type="text"name="t3">
+<br>السن<input type="text"name="t4">
+<br>النوع&nbsp&nbsp&nbspذكر <input type="radio"name="1">انثي<input type="radio"name="1">
+<br><input type="reset"value="حذف">
+<input type="submit"value="ارسال"onclick="return a()">
+<script>
+alert("مرحبًا بكم");
+function a(){
+if(f1.t1.value==""){
+alert("غير مسموح بترك حقل البريد فارغ");
+};
+if(f1.t2.value==""){
+alert("غير مسموح بترك حقل كلمة المرور فارغ");
+};
+if(f1.t3.value==""){
+alert("غير مسموح بترك حقل رقم الموبيل فارغ");
+};
+if(f1.t4.value==""){
+alert("غير مسموح بترك حقل السن فارغ");
+return false;
+};
+};
+</script>
+</body>
